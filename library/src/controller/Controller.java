@@ -25,25 +25,6 @@ public class Controller {
 	public void appStart() {
 		view.printStart();
 		startMenu();
-		//view.printMenu();
-		//view.printLoaningMenu();
-		//db.writeCustomer(new Customer("Teszt Jolán", "+70-765-0514", "jolantesz@gmai.com"));;
-		//db.writeBook(new Book("Wicca", "Scott Cunningham", BookType.PRINT, BookCategory.PILOSOPHY, false));
-		//db.writeLoaning(new Loaning(3,2, "2023-03-09", "2023-03-14", true));
-		//db.updateCustomer(new Customer(1,"Teszt Géza", "+20-125-0014", "gezatesz@gmai.com"));
-		//db.updateBook(new Book(1,"Java", "Burd", BookType.EBOOK, BookCategory.PROGRAMMING, true));
-		//db.updateLoaning(new Loaning(1,1,1, "2023-03-01", "2023-03-12", false));
-		
-		//db.deleteCustomer(5);
-		//db.deleteBook(3);
-		//db.deleteLoaning(3);
-		
-		/*
-		view.printCustomerTable(db.readCustomers());
-		view.printBookTable(db.readBooks());
-		view.printLoaningTable(db.readLoanings());
-		*/
-		
 		view.printEnd();
 	}
 	
